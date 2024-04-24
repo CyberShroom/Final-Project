@@ -20,8 +20,6 @@ body {
     grid-column: 1 / 4;
     grid-row: 1;
     background-color: red;
-    display: grid;
-    grid-template-columns: var(--template-column);
 }
 
 #Header {
@@ -31,21 +29,31 @@ body {
 }
 
 #Left {
-
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+    background-color: darkblue;
 }
 
 #Nav {
-
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: cyan;
 }
 
 #Content {
-
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: orange;
 }
 
 #Footer {
-
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    background-color: yellow;
 }
 
 #Right {
-
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+    background-color: darkkhaki;
 }
