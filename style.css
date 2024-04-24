@@ -37,7 +37,6 @@ h1 {
 }
 
 #Header {
-    background-color: blue;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
@@ -45,7 +44,6 @@ h1 {
 #Left {
     grid-column: 1 / 2;
     grid-row: 2 / 5;
-    background-color: darkblue;
 }
 
 #Nav {
@@ -69,5 +67,9 @@ h1 {
 #Right {
     grid-column: 3 / 4;
     grid-row: 2 / 5;
-    background-color: darkkhaki;
+}
+
+#background-image {
+    grid-column: 1 / 4;
+    grid-row: 2 / 5;
 }
