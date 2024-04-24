@@ -25,7 +25,7 @@ button {
     margin-bottom: 5%;
     font-size: 2rem;
     font-weight: bold;
-    background-color: cyan;
+    background-color: #FF00BB;
     border: 5px solid black;
     border-radius: 10px;
 }
@@ -46,7 +46,7 @@ button:hover {
 #Top {
     grid-column: 1 / 4;
     grid-row: 1;
-    background-color: red;
+    background-color: #00FFFF;
     display: grid;
     grid-template-columns: var(--template-column);
 }
@@ -64,10 +64,10 @@ button:hover {
 #Nav {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-color: darkcyan;
+    background-color: #80406F;
     border: 5px double black;
-    border-radius: 5px;
-    border-color: blue;
+    border-radius: 10px;
+    border-color: #FF00BB;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 5%;
@@ -76,13 +76,16 @@ button:hover {
 #Content {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    background-color: orange;
+    background-color: #FFD600;
+    border: 5px solid #807540;
+    border-radius: 10px;
 }
 
 #Footer {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
-    background-color: yellow;
+    background-color: #39AAAA;
+    border: 5px outset #80406F;
 }
 
 #Right {
