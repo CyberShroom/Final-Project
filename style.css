@@ -12,6 +12,13 @@ img {
     height: 100%;
 }
 
+h1 {
+    grid-column: 2 / 3;
+    width: 100%;
+    font-size: 5rem;
+    align-self: center;
+}
+
 #grid-div {
     display: grid;
     grid-template-columns: var(--template-column);
@@ -25,6 +32,8 @@ img {
     grid-column: 1 / 4;
     grid-row: 1;
     background-color: red;
+    display: grid;
+    grid-template-columns: var(--template-column);
 }
 
 #Header {
