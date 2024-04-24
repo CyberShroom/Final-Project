@@ -2,6 +2,7 @@ const navBar = document.querySelector("#Nav");
 const content = document.querySelector("#Content");
 const footer = document.querySelector("#Footer");
 const backgroundImage = document.querySelector("#background-image");
+var hoverTimes = 0;
 
 function hide()
 {
@@ -17,5 +18,23 @@ function nothingToSeeHere()
     footer.style.visibility = 'visible';
 }
 
-backgroundImage.addEventListener("mouseover", hide)
-backgroundImage.addEventListener("mouseout", nothingToSeeHere)
+function incrementHover()
+{
+    hoverTimes = hoverTimes + 1;
+    if(hoverTimes >= 5)
+    {
+        hide()
+    }
+}
+
+function youDidntSeeAnything()
+{
+    if(hoverTimes >= 5)
+    {
+        hoverTimes = 0;
+        nothingToSeeHere();
+    }
+}
+
+backgroundImage.addEventListener("mouseover", incrementHover)
+backgroundImage.addEventListener("mouseout", youDidntSeeAnything)

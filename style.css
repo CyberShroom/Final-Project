@@ -19,6 +19,10 @@ h1 {
     align-self: center;
 }
 
+button {
+
+}
+
 #grid-div {
     display: grid;
     grid-template-columns: var(--template-column);
@@ -50,6 +54,11 @@ h1 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: cyan;
+    border: 5px double black;
+    border-radius: 5px;
+    border-color: blue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 #Content {
