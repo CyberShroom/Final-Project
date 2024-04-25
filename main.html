@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" media="screen and (min-width: 800px)">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
     <script src="script.js" defer></script>
@@ -13,20 +13,20 @@
         <div id="Top">
             <h1>World Database</h1>
         </div>
-        <div id="Header">
-            <img src="Images/world.webp" alt="A placeholder Image for a worldmap?">
-        </div>
         <div id="background-image">
             <img src="Images/rick.jpg" alt="Get Rolled.">
         </div> 
+        <div id="Header">
+            <img src="Images/world.webp" alt="A placeholder Image for a worldmap?">
+        </div>
         <div id="Left" hidden>
             
         </div>
         <div id="Nav">
-            <a href="#"><button>Nations</button></a>
-            <a href="#"><button>History</button></a>
-            <a href="#"><button>People</button></a>
-            <a href="#"><button>Items</button></a>
+            <a href="#"><button type="button">Nations</button></a>
+            <a href="#"><button type="button">History</button></a>
+            <a href="#"><button type="button">People</button></a>
+            <a href="#"><button type="button">Items</button></a>
         </div>
         <div id="Content">
             <h2>Welcome to "World Database". This is the homepage.</h2>
@@ -52,7 +52,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Have a suggestion? Add it here:</legend>
-                    <textarea name="text" cols="20" rows="10" style="resize: none;"></textarea>
+                    <textarea name="text" style="resize: none; width: 100%;" id="text-area"></textarea>
                 </fieldset>
                 <input type="submit" style="margin-left: 5px;"><input type="reset" style="margin-left: 5px;">
             </form>

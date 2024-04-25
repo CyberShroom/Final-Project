@@ -1,6 +1,6 @@
 :root {
     --template-column: 20vw 60vw 20vw;
-    --template-row: 20vh 10vh auto 40vh;
+    --template-row: 20vh 10vh auto auto;
 }
 
 img {
@@ -11,41 +11,43 @@ img {
 h1 {
     grid-column: 2 / 3;
     width: 100%;
-    font-size: 5rem;
+    font-size: 5vw;
     align-self: center;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3vw;
     text-align: center;
     border-bottom: 5px solid #80406F;
     border-radius: 10px;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 p {
-    font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    font-size: 3vw;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-bottom: 10px;
     border-bottom: 5px double #80406F;
     border-radius: 10px;
 }
 
 button {
-    margin: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: bold;
     background-color: #FF00BB;
     border: 5px solid black;
     border-radius: 10px;
+    height: 75%;
+    width: 75%;
+    margin-left: 10%;
 }
 
 a {
-    align-self: center;
+    height: 100%;
+    width: 100%;
+    align-content: center;
 }
 
 button:hover {
@@ -56,7 +58,7 @@ button:hover {
     display: grid;
     grid-template-columns: var(--template-column);
     grid-template-rows: var(--template-row);
-    background-color: purple;
+    background-color: grey;
 }
 
 #Top {
@@ -86,7 +88,7 @@ button:hover {
     border-color: #FF00BB;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 5%;
+    overflow: hidden;
 }
 
 #Content {
@@ -102,8 +104,6 @@ button:hover {
     grid-row: 4 / 5;
     background-color: #39AAAA;
     border: 5px outset #80406F;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
 }
 
 #Right {
@@ -114,5 +114,4 @@ button:hover {
 #background-image {
     grid-column: 1 / 4;
     grid-row: 2 / 5;
-
 }
