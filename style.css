@@ -1,10 +1,6 @@
 :root {
     --template-column: 20% auto 20%;
-    --template-row: 20% 10% auto 15%;
-}
-
-body {
-    height: 100vh;
+    --template-row: 20% 10% auto 40%;
 }
 
 img {
@@ -56,9 +52,8 @@ button:hover {
     display: grid;
     grid-template-columns: var(--template-column);
     grid-template-rows: var(--template-row);
-    min-height: 100%;
-    min-width: 100%;
     background-color: purple;
+    height: 100vh;
 }
 
 #Top {
@@ -104,6 +99,8 @@ button:hover {
     grid-row: 4 / 5;
     background-color: #39AAAA;
     border: 5px outset #80406F;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 #Right {
@@ -114,4 +111,5 @@ button:hover {
 #background-image {
     grid-column: 1 / 4;
     grid-row: 2 / 5;
+
 }

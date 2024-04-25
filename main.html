@@ -7,7 +7,7 @@
     <script src="script.js" defer></script>
     <title>World Database</title>
 </head>
-<body style="background-color: violet;">
+<body style="background-color: grey;">
     <div id="grid-div">
         <div id="Top">
             <h1>World Database</h1>
@@ -35,7 +35,23 @@
             <p> Click History to view information about important events in the past.</p>
         </div>
         <div id="Footer">
-    
+            <form action="">
+                <fieldset>
+                    <legend>Are you an admin? Sign in here:</legend>
+                    <input type="password">
+                </fieldset>
+                <fieldset>
+                    <legend>Who are you?</legend>
+                    <input type="radio" id="guest" name="user" value="Guest" >
+                    <input type="radio" id="admin" name="user" value="Admin">
+                    <input type="radio" id="user" name="user" value="Returning User">
+                </fieldset>
+                <fieldset>
+                    <legend>Have a suggestion? Add it here:</legend>
+                    <textarea name="text" cols="100" rows="10" style="resize: none;"></textarea>
+                </fieldset>
+                <input type="submit" style="margin-left: 5px;"><input type="reset" style="margin-left: 5px;">
+            </form>
         </div>
         <div id="Right" hidden>
     
