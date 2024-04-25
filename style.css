@@ -44,6 +44,10 @@ button {
     border-radius: 10px;
 }
 
+a {
+    align-self: center;
+}
+
 button:hover {
     background-color: grey;
 }
