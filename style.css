@@ -19,6 +19,24 @@ h1 {
     align-self: center;
 }
 
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 5px solid #80406F;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 10px;
+    border-bottom: 5px double #80406F;
+    border-radius: 10px;
+}
+
 button {
     margin: 10%;
     margin-top: 5%;
