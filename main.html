@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
     <script src="script.js" defer></script>
     <title>World Database</title>
 </head>
@@ -42,13 +43,16 @@
                 </fieldset>
                 <fieldset>
                     <legend>Who are you?</legend>
+                    <label for="guest">Guest</label>
                     <input type="radio" id="guest" name="user" value="Guest" >
+                    <label for="admin">Admin</label>
                     <input type="radio" id="admin" name="user" value="Admin">
+                    <label for="user">Returning User</label>
                     <input type="radio" id="user" name="user" value="Returning User">
                 </fieldset>
                 <fieldset>
                     <legend>Have a suggestion? Add it here:</legend>
-                    <textarea name="text" cols="100" rows="10" style="resize: none;"></textarea>
+                    <textarea name="text" cols="20" rows="10" style="resize: none;"></textarea>
                 </fieldset>
                 <input type="submit" style="margin-left: 5px;"><input type="reset" style="margin-left: 5px;">
             </form>
