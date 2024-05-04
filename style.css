@@ -54,7 +54,7 @@ a {
 body {
     margin: 0px;
     background-image: url(Images/background.png);
-    background-color: grey;
+    background-color: rgb(14, 51, 40);
     background-repeat: repeat-x;
     background-size: contain;
 }
@@ -115,7 +115,7 @@ button:hover {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
     background-color: #39AAAA;
-    border: 5px outset #80406F;
+    border: 10px outset #807540;
 }
 
 #Right {
