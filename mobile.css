@@ -14,15 +14,17 @@ h1 {
     font-size: 10vw;
     align-self: center;
     margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
-    font-size: 7vw;
+    font-size: 6vw;
     text-align: center;
     border-bottom: 5px solid darkred;
     border-radius: 10px;
     margin-right: 5%;
     margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
@@ -43,6 +45,7 @@ button {
     height: 75%;
     width: 75%;
     margin-left: 12.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
