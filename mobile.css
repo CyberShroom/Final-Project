@@ -13,12 +13,13 @@ h1 {
     width: 100%;
     font-size: 10vw;
     align-self: center;
+    margin-left: 5px;
 }
 
 h2 {
     font-size: 7vw;
     text-align: center;
-    border-bottom: 5px solid #80406F;
+    border-bottom: 5px solid darkred;
     border-radius: 10px;
     margin-right: 5%;
     margin-left: 5%;
@@ -29,7 +30,7 @@ p {
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 10px;
-    border-bottom: 5px double #80406F;
+    border-bottom: 5px double darkred;
     border-radius: 10px;
 }
 
@@ -64,7 +65,7 @@ button:hover {
 #Top {
     grid-column: 1 / 5;
     grid-row: 1;
-    background-color: #00FFFF;
+    background-color: gray;
     display: grid;
     grid-template-columns: var(--template-column);
 }
@@ -83,13 +84,14 @@ button:hover {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
     background-color: #80406F;
-    border: 5px double black;
+    border: 5px solid #FF00BB;
     border-radius: 10px;
-    border-color: #FF00BB;
     display: grid;
     grid-template-rows: repeat(4,1fr);
     gap: 5%;
     overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #Content {
@@ -98,6 +100,8 @@ button:hover {
     background-color: #FFD600;
     border: 5px solid #807540;
     border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #Footer {
