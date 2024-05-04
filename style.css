@@ -53,7 +53,7 @@ a {
 
 body {
     margin: 0px;
-    background-image: url(Images/rick.jpg);
+    background-image: url(Images/background.png);
     background-color: grey;
     background-repeat: repeat-x;
     background-size: contain;
